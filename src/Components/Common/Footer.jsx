@@ -51,7 +51,7 @@ function Footer() {
             <div class="footer-advanced-layout">
               <div>
               <a class="brand" href="index.html">
-              <img src="Assets/images/assets/Logo/logo.png" alt="" width="115" height="34" srcset="Assets/images/assets/Logo/logo.png"/>
+              <img src="Assets/images/assets/Logo/logo2.png" alt="" width="115" height="34" srcset="Assets/images/assets/Logo/logo2.png"/>
               </a> <br />
               <ul class="foter-social-links list-inline list-inline-md">
                 <li><a class="icon novi-icon icon-sm link-default mdi mdi-facebook" href=""></a></li>
@@ -63,7 +63,7 @@ function Footer() {
               </div>
               <div>
                 {/* <!-- Rights--> */}
-              <p class="rights">© {new Date().getFullYear()}<span class="copyright-year"></span>. All Rights Reserved. Design by <Link>Pillar of Africa</Link></p>
+              <p class="rights">© {new Date().getFullYear()}. All Rights Reserved. Design by <Link>Pillar of Africa</Link></p>
               </div>
             </div>
             <hr />

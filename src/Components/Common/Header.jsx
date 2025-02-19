@@ -15,7 +15,7 @@ function Header() {
                   <button class="rd-navbar-toggle" data-rd-navbar-toggle="#rd-navbar-nav-wrap-1"><span></span></button>
                   {/* <!-- RD Navbar Brand--> */}
                   <Link class="rd-navbar-brand" to="/">
-                    <img src="Assets/images/assets/Logo/logo.png" alt="logo_picture" width="90" height="44" srcset="images/logo-default-151x44.png 2x"/>
+                    <img src="Assets/images/assets/Logo/logo2.png" alt="logo_picture" width="90" height="44" srcset="images/logo-default-151x44.png 2x"/>
                   </Link>
                 </div>
                 <div class="rd-navbar-collapse">

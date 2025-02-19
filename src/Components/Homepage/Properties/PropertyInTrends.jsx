@@ -12,17 +12,17 @@ function PropertyInTrends() {
           {/* <!-- Post Modern--> */}
 
           <article class="post-modern wow slideInLeft">
-            <a class="post-modern-media" href="#">
+            <Link class="post-modern-media">
               <img src="Assets/images/grid-blog-1-571x353.jpg" alt="" width="571" height="353"/>
-            </a>
+            </Link>
 
             <h4 class="post-modern-title">
-              <a class="post-modern-title" href="#">Mzuzu</a>
+              <Link class="post-modern-title">Mzuzu</Link>
             </h4>
             
             <ul class="post-modern-meta">
               <li>
-                <a class="button-winona" href="#">Mkw 1.500.000</a>
+                <Link class="button-winona">Mkw 1.500.000</Link>
               </li>
               <li>30 Sq. Ft.</li>
               <li>3 Bedrooms</li>
@@ -34,17 +34,17 @@ function PropertyInTrends() {
         <div class="col-md-6 wow-outer">
           {/* <!-- Post Modern--> */}
           <article class="post-modern wow slideInLeft">
-            <a class="post-modern-media" href="#">
-              <img src="Assets/images/grid-blog-2-571x353.jpg" alt="" width="571" height="353"/>
-            </a>
+            <Link class="post-modern-media">
+              <img src="Assets/Home_pub/house(4).png" alt="" width="571" height="353"/>
+            </Link>
             
             <h4 class="post-modern-title">
-              <a class="post-modern-title" href="#">Area 5, Blantyre</a>
+              <Link class="post-modern-title">Area 5, Blantyre</Link>
             </h4>
             
             <ul class="post-modern-meta">
               <li>
-                <a class="button-winona" href="#">Mkw 300.000 / Month</a>
+                <Link class="button-winona">Mkw 300.000 / Month</Link>
               </li>
               <li>40 Sq. Ft.</li>
               <li>2 Bedrooms</li>
@@ -56,17 +56,17 @@ function PropertyInTrends() {
           {/* <!-- Post Modern--> */}
 
           <article class="post-modern wow slideInLeft">
-            <a class="post-modern-media" href="#">
-              <img src="Assets/images/grid-blog-3-571x353.jpg" alt="" width="571" height="353"/>
-            </a>
+            <Link class="post-modern-media">
+              <img src="Assets/Home_pub/house(4).png" alt="" width="571" height="353"/>
+            </Link>
 
             <h4 class="post-modern-title">
-              <a class="post-modern-title" href="#">Kanengo, Lilongwe</a>
+              <Link class="post-modern-title">Kanengo, Lilongwe</Link>
             </h4>
             
             <ul class="post-modern-meta">
               <li>
-                <a class="button-winona" href="#">Mkw 180.000 / Month</a>
+                <Link class="button-winona">Mkw 180.000 / Month</Link>
               </li>
               <li>50 Sq. Ft.</li>
               <li>4 Bedrooms</li>
@@ -77,15 +77,15 @@ function PropertyInTrends() {
         <div class="col-md-6 wow-outer">
           {/* <!-- Post Modern--> */}
           <article class="post-modern wow slideInLeft">
-            <a class="post-modern-media" href="#">
-              <img src="Assets/images/grid-blog-4-571x353.jpg" alt="" width="571" height="353"/>
-            </a>
+            <Link class="post-modern-media">
+              <img src="Assets/Home_pub/house(4).png" alt="" width="571" height="353"/>
+            </Link>
             <h4 class="post-modern-title">
-              <a class="post-modern-title" href="#">Dowa, Lilongwe</a>
+              <Link class="post-modern-title">Dowa, Lilongwe</Link>
             </h4>
             <ul class="post-modern-meta">
               <li>
-                <a class="button-winona" href="#">Mkw 2.700.000</a>
+                <Link class="button-winona">Mkw 2.700.000</Link>
               </li>
               <li>90 Sq. Ft.</li>
               <li>2 Bedrooms</li>

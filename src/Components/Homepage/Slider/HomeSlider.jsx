@@ -6,21 +6,21 @@ const HomeSlider = () => {
 
     const slides = [
         {
-          image: "Assets/images/slider-minimal-slide-1-1920x968.jpg",
+          image: "Assets/Image/HomeSlider.jpg",
           title: "Offering Diverse",
           subtitle: "Properties",
           description: "malawiHouses provides you with lots of great properties throughout Malawi so that you could easily choose your dream property.",
           button: "View Properties"
         },
         {
-          image: "Assets/images/slider-minimal-slide-2-1920x968.jpg",
+          image: "Assets/Image/HomeSlider2.jpg",
           title: "Easily",
           subtitle: "Rent & Sale",
           description: "With the help of our services and property management solutions, you can rent or sell any house or apartment.",
           button: "View properties"
         },
         {
-          image: "Assets/images/slider-minimal-slide-3-1920x968.jpg",
+          image: "Assets/Image/HomeSlider.webp",
           title: "More Than 1 Years of",
           subtitle: "Experience",
           description: "Founded in 2024, our company is a team of renowned property management and real estate experts always ready to help you.",

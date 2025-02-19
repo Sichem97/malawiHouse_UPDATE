@@ -1,31 +1,32 @@
 import React from 'react'
+import { Link } from 'react-router';
 
 function AboutUs() {
 
   const teamMembers = [
     {
-      image: "Assets/images/team-1-270x273.jpg",
+      image: "Assets/Profile/profile2.png",
       name: "Sichem Mulumba",
       position: "Founder",
       phone: "1-800-1324-567",
       description: "Ms. Sichem founded our company in 2024 with a vision to help guests and residents of the Malawi to easily find and buy or rent real estate in Malawi."
     },
     {
-      image: "Assets/images/team-2-270x273.jpg",
+      image: "Assets/Profile/profile4.png",
       name: "Memory N.",
       position: "CEO",
       phone: "1-800-1324-567",
       description: "Memory has been in marketing for the past 3 years. She has excellent knowledge about the local market both residential and commercial."
     },
     {
-      image: "Assets/images/team-3-270x273.jpg",
+      image: "Assets/Profile/profile3.png",
       name: "Jhon Yotcheb",
-      position: "Web-developer",
+      position: "Software Engineer & Web-Develloper",
       phone: "1-800-1324-567",
       description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque incidunt expedita assumenda hic provident, reprehenderit officiis atque eum maxime et!"
     },
     {
-      image: "Assets/images/team-4-270x273.jpg",
+      image: "Assets/Profile/profile1.png",
       name: "Priscilla K.",
       position: "Marketing",
       phone: "1-800-1324-567",
@@ -47,13 +48,13 @@ function AboutUs() {
                 </figure>
                 <div className="profile-creative-main">
                   <h5 className="profile-creative-title">
-                    <a href="#">{member.name}</a>
+                    <Link>{member.name}</Link>
                   </h5>
                   <p className="profile-creative-position">{member.position}</p>
                   <div className="profile-creative-contacts">
                     <div className="object-inline">
                       <span className="icon novi-icon icon-md mdi mdi-phone"></span>
-                      <a href="tel:#">{member.phone}</a>
+                      <Link>{member.phone}</Link>
                     </div>
                   </div>
                   <p>{member.description}</p>

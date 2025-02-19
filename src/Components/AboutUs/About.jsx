@@ -3,6 +3,7 @@ import AboutUs from './AboutUs'
 import WhyPeopleChooseUs from './Features/WhyPeopleChooseUs'
 import WhoWeAre from './Features/WhoWeAre'
 import BreadcrumbAbout from './Features/BreadcrumbsAbout'
+import Vison from './Features/Vison'
 
 function About() {
   return (
@@ -12,6 +13,7 @@ function About() {
       <BreadcrumbAbout/>
       <WhoWeAre/>
       <WhyPeopleChooseUs/>
+      <Vison/>
       <AboutUs/>
     </div>
   </div>
