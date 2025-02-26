@@ -4,8 +4,7 @@ function BestOffert() {
   return (
     <div>
         {/* <!-- Best offer--> */}
-
-        <section class="section novi-background section-1 bg-primary-darker text-center" style={{backgroundImage:'', height:'50vh'}}>
+        <section class="section novi-background section-1 bg-primary-darker text-center" style={{backgroundColor:'hsl(270, 50%, 11%)', height:'50vh'}}>
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-sm-10 col-lg-7 col-xl-6">

@@ -1,9 +1,13 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import { Link } from 'react-router'
+import './footer.css'
 
 function Footer() {
   return (
-<footer class="section novi-background footer-advanced bg-gray-700">
+    <section className='footerSection'>
+      <footer class="footerSection novi-background footer-advanced bg-gray-700">
         <div class="footer-advanced-main">
           <div class="container">
             <div class="row row-50">
@@ -54,11 +58,11 @@ function Footer() {
               <img src="Assets/images/assets/Logo/logo2.png" alt="" width="115" height="34" srcset="Assets/images/assets/Logo/logo2.png"/>
               </a> <br />
               <ul class="foter-social-links list-inline list-inline-md">
-                <li><a class="icon novi-icon icon-sm link-default mdi mdi-facebook" href=""></a></li>
-                <li><a class="icon novi-icon icon-sm link-default mdi mdi-twitter" href=""></a></li>
+                <li><Link class="icon novi-icon icon-sm link-default mdi mdi-facebook"></Link></li>
+                <li><Link class="icon novi-icon icon-sm link-default mdi mdi-twitter"></Link></li>
                 {/* <li><a class="icon novi-icon icon-sm link-default mdi mdi-instagram" href=""></a></li> */}
                 {/* <li><a class="icon novi-icon icon-sm link-default mdi mdi-google" href=""></a></li> */}
-                <li><a class="icon novi-icon icon-sm link-default mdi mdi-linkedin" href=""></a></li>
+                <li><Link class="icon novi-icon icon-sm link-default mdi mdi-linkedin"></Link></li>
               </ul>
               </div>
               <div>
@@ -70,6 +74,7 @@ function Footer() {
           </div>
         </div>
       </footer>
+    </section>
   )
 }
 

@@ -1,12 +1,12 @@
 import React from 'react'
-import AboutUs from './AboutUs'
+import AboutUs from './Features/AboutUs'
 import WhyPeopleChooseUs from './Features/WhyPeopleChooseUs'
 import WhoWeAre from './Features/WhoWeAre'
 import BreadcrumbAbout from './Features/BreadcrumbsAbout'
 import Vison from './Features/Vison'
 
 function About() {
-  return (
+  return ( 
     <div>
     <div class="page">
       

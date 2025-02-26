@@ -10,6 +10,8 @@ import About from './Components/AboutUs/About';
 import Contact from './Components/Contact/Contact'
 import Header from './Components/Common/Header';
 import Footer from './Components/Common/Footer';
+import Blog from './Components/Blog/Blog';
+
 
 
 function App() {
@@ -38,6 +40,7 @@ function App() {
         <Route path='/Services' element={<Services/>}/>
         <Route path='/About' element={<About/>}/>
         <Route path='/Contacts' element={<Contact/>}/>
+        <Route path='/Blog' element={<Blog/>}/>
       </Routes>
       <Footer/>
     </div>

@@ -1,12 +1,17 @@
 import React from 'react'
+import './header.css'
 import { Link } from 'react-router'
+
 
 function Header() {
   return (
       <header class="section novi-background page-header">
+
         {/* <!-- RD Navbar--> */}
         <div class="rd-navbar-wrap">
+
           <nav class="rd-navbar rd-navbar-corporate" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-lg-stick-up="true" data-lg-stick-up-offset="118px" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xl-stick-up="true" data-xl-stick-up-offset="118px" data-xxl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-xxl-stick-up-offset="118px" data-xxl-stick-up="true">
+
             <div class="rd-navbar-aside-outer">
               <div class="rd-navbar-aside">
                 {/* <!-- RD Navbar Panel--> */}
@@ -15,7 +20,7 @@ function Header() {
                   <button class="rd-navbar-toggle" data-rd-navbar-toggle="#rd-navbar-nav-wrap-1"><span></span></button>
                   {/* <!-- RD Navbar Brand--> */}
                   <Link class="rd-navbar-brand" to="/">
-                    <img src="Assets/images/assets/Logo/logo2.png" alt="logo_picture" width="90" height="44" srcset="images/logo-default-151x44.png 2x"/>
+                    <img src="Assets/images/assets/Logo/logo2.png" alt="logo_picture" width="90" height="44" srcset="Assets/images/assets/Logo/logo2.png 2x"/>
                   </Link>
                 </div>
                 <div class="rd-navbar-collapse">
@@ -28,7 +33,7 @@ function Header() {
                     <article class="unit align-items-center">
 
                       <div class="unit-left">
-                        <span class="icon novi-icon icon-md icon-modern mdi mdi-phone"></span>
+                        {/* <span class="icon novi-icon icon-md icon-modern mdi mdi-phone"></span> */}
                       </div>
                       
                       <div class="unit-body">
@@ -37,9 +42,10 @@ function Header() {
                         </ul>
                       </div>
                     </article>
+
                     <article class="unit align-items-center">
                       <div class="unit-left">
-                        <span class="icon novi-icon icon-md icon-modern mdi mdi-map-marker"></span>
+                        {/* <span class="icon novi-icon icon-md icon-modern mdi mdi-map-marker"></span> */}
                       </div>
 
                       <div class="unit-body">
@@ -51,6 +57,7 @@ function Header() {
                 </div>
               </div>
             </div>
+
             <div class="rd-navbar-main-outer">
               <div class="rd-navbar-main">
                 <div class="rd-navbar-nav-wrap" id="rd-navbar-nav-wrap-1">
@@ -70,6 +77,7 @@ function Header() {
                 </div>
               </div>
             </div>
+
           </nav>
         </div>
       </header>

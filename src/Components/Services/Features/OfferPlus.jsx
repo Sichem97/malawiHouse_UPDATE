@@ -2,7 +2,7 @@
 import React from 'react'
 import { Link } from 'react-router'
 
-function ServicesOffered() {
+function OffersPlus() {
 
   const datas = [
     {
@@ -36,19 +36,19 @@ function ServicesOffered() {
               {/* Services */}
     <section class="section novi-background section-lg text-center">
     <div class="container">
-      <h3 class="text-uppercase">Services We Offer</h3>
-      <p><span class="text-width-1">At our agency, we work with various types of services. find out more about our services offered by browsing our website.</span></p>
+      <h3 class="text-uppercase">Additionnal Services</h3>
+      <p><span class="text-width-1">With various types of services. find out and request our offered services</span></p>
       <div class="row row-35 row-xxl-70 offset-top-2">
 
         {datas.map((data, index) => (
             <div class="col-sm-6 col-lg-3">
               {/* Thumbnail Light */}
               <article class="thumbnail-light">
-                <Link class="thumbnail-light-media" >
+                <Link to='/Contacts' class="thumbnail-light-media" >
                   <img class="thumbnail-light-image" src={data.image} alt="" style={{width:"270px",height:"200px"}}/>
                 </Link>
                 <h4 class="thumbnail-light-title">
-                  <Link >{data.title}</Link>
+                  <Link to='/Contacts'>{data.title}</Link>
                 </h4>
               </article>
             </div>
@@ -60,4 +60,4 @@ function ServicesOffered() {
   )
 }
 
-export default ServicesOffered
+export default OffersPlus
