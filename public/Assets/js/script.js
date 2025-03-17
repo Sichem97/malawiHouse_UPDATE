@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable no-undef */
 "use strict";
 (function () {
 
@@ -8,15 +10,12 @@
 			$document = $(document),
 			$window = $(window),
 			$html = $("html"),
-			$body = $("body"),
-
+			
 			isDesktop = $html.hasClass("desktop"),
 			isIE = userAgent.indexOf("msie") !== -1 ? parseInt(userAgent.split("msie")[1], 10) : userAgent.indexOf("trident") !== -1 ? 11 : userAgent.indexOf("edge") !== -1 ? 12 : false,
-			isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent),
 			windowReady = false,
 			isNoviBuilder = false,
 			pageTransitionAnimationDuration = 500,
-			loaderTimeoutId,
 			plugins = {
 				bootstrapTooltip: $("[data-toggle='tooltip']"),
 				bootstrapModalDialog: $('.modal'),
@@ -416,7 +415,7 @@
 							sitekey: $capthcaItem.attr('data-sitekey'),
 							size: $capthcaItem.attr('data-size') ? $capthcaItem.attr('data-size') : 'normal',
 							theme: $capthcaItem.attr('data-theme') ? $capthcaItem.attr('data-theme') : 'light',
-							callback: function (e) {
+							callback: function () {
 								$('.recaptcha').trigger('propertychange');
 							}
 						}
@@ -604,7 +603,6 @@
 							var markerElement = markerItems[j];
 							getLatLngObject(markerElement.getAttribute("data-location"), markerElement, plugins.maps[i], function(location, markerElement, mapElement){
 								var icon = markerElement.getAttribute("data-icon") || mapElement.getAttribute("data-icon");
-								var activeIcon = markerElement.getAttribute("data-icon-active") || mapElement.getAttribute("data-icon-active");
 								var info = markerElement.getAttribute("data-description") || "";
 								var infoWindow = new google.maps.InfoWindow({
 									content: info
@@ -726,7 +724,6 @@
 		// Bootstrap tabs
 		if (plugins.bootstrapTabs.length) {
 			for (var i = 0; i < plugins.bootstrapTabs.length; i++) {
-				var bootstrapTabsItem = $(plugins.bootstrapTabs[i]);
 			}
 		}
 
@@ -811,8 +808,7 @@
 						next = s.find(".swiper-button-next"),
 						prev = s.find(".swiper-button-prev"),
 						bar = s.find(".swiper-scrollbar"),
-						swiperSlide = s.find(".swiper-slide"),
-						autoplay = false;
+						swiperSlide = s.find(".swiper-slide");
 
 				for (var j = 0; j < swiperSlide.length; j++) {
 					var $this = $(swiperSlide[j]),
@@ -936,7 +932,7 @@
 								$output.removeClass("active");
 							}, 6000);
 						},
-						beforeSend: function (data) {
+						beforeSend: function () {
 							var isNoviBuilder = window.xMode;
 
 							var isValidated = (function () {
@@ -986,7 +982,7 @@
 			for (i = 0; i < plugins.campaignMonitor.length; i++) {
 				var $campaignItem = $(plugins.campaignMonitor[i]);
 
-				$campaignItem.on('submit', $.proxy(function (e) {
+				$campaignItem.on('submit', $.proxy(function () {
 					var data = {},
 							url = this.attr('action'),
 							dataArray = this.serializeArray(),
@@ -1015,7 +1011,7 @@
 								$output.removeClass("active");
 							}, 6000);
 						},
-						beforeSend: function (data) {
+						beforeSend: function () {
 							// Stop request if builder or inputs are invalide
 							if (isNoviBuilder || !isValidated($this.find('[data-constraints]')))
 								return false;
@@ -1059,7 +1055,7 @@
 						"form-type": $form.attr("data-form-type") || "contact",
 						"counter": i
 					},
-					beforeSubmit: function (arr, $form, options) {
+					beforeSubmit: function () {
 						if (isNoviBuilder)
 							return;
 

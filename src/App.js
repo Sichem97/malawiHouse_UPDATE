@@ -11,6 +11,8 @@ import Contact from './Components/Contact/Contact'
 import Header from './Components/Common/Header';
 import Footer from './Components/Common/Footer';
 import Blog from './Components/Blog/Blog';
+import ForRent from './Components/Services/ForRent/ForRent';
+import ForSell from './Components/Services/ForSell/ForSell';
 
 
 
@@ -41,6 +43,8 @@ function App() {
         <Route path='/About' element={<About/>}/>
         <Route path='/Contacts' element={<Contact/>}/>
         <Route path='/Blog' element={<Blog/>}/>
+        <Route path='/ForRent' element={<ForRent/>}/>
+        <Route path='/ForSell' element={<ForSell/>}/>
       </Routes>
       <Footer/>
     </div>

@@ -13,7 +13,7 @@ function Feature() {
 
             <div class="col-sm-6 col-lg-4 wow-outer">  
               {/* <!-- Box Minimal--> */}
-              <Link to=''>
+              <Link to='/Contacts'>
               <article class="item box-minimal">
                 <div class="box-minimal-main wow-outer">
                   <div className='showed-content'>
@@ -29,7 +29,7 @@ function Feature() {
 
             <div class="col-sm-6 col-lg-4 wow-outer">
               {/* <!-- Box Minimal--> */}
-              <Link to='/PostProduct'>
+              <Link to='/ForRent'>
                 <article class="item box-minimal">
                   <div class="box-minimal-main wow-outer">
                     <div className='showed-content'>
@@ -45,7 +45,7 @@ function Feature() {
 
             <div class="col-sm-6 col-lg-4 wow-outer">
               {/* <!-- Box Minimal--> */}
-              <Link to='/ForSale'>
+              <Link to='/ForSell'>
                 <article class="item box-minimal">
                   <div class="box-minimal-main wow-outer">
                     <div className='showed-content'>

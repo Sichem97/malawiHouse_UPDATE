@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router'
 
 function BreadcrumbsAbout() {
   return (
@@ -12,7 +13,7 @@ function BreadcrumbsAbout() {
               <h2 class="text-uppercase breadcrumbs-custom-title">About us</h2>
             </div>
             <ul class="breadcrumbs-custom-path">
-              <li><a href="index.html">Home</a></li>
+              <li><Link to="/">Home</Link></li>
               <li class="active">About us</li>
             </ul>
           </div>

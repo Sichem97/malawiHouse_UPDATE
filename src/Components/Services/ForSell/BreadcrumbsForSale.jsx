@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router'
 
-function Breadcrumbs() {
+function BreadcrumbsForSale() {
   return (
     <div>
               {/* Breadcrumbs  */}
@@ -10,11 +10,13 @@ function Breadcrumbs() {
           <div class="container breadcrumbs-custom-container">
             <div class="breadcrumbs-custom-main">
               <h6 class="breadcrumbs-custom-subtitle title-decorated">Services</h6>
-              <h2 class="text-uppercase breadcrumbs-custom-title">Services</h2>
+              <h2 class="text-uppercase breadcrumbs-custom-title">For Sale</h2>
             </div>
+
             <ul class="breadcrumbs-custom-path">
               <li><Link to="/">Home</Link></li>
               <li class="active">Services</li>
+              <li class="active">For Sale</li>
             </ul>
           </div>
         </div>
@@ -23,4 +25,4 @@ function Breadcrumbs() {
   )
 }
 
-export default Breadcrumbs
+export default BreadcrumbsForSale

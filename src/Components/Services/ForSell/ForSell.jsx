@@ -1,8 +1,13 @@
 import React from 'react'
+import BreadcrumbsForSale from './BreadcrumbsForSale'
+import GalleryForSale from './GalleryForSale'
 
 function ForSell() {
   return (
-    <div>ForSell</div>
+    <div className='page'>
+      <BreadcrumbsForSale/>
+      <GalleryForSale/>
+    </div>
   )
 }
 

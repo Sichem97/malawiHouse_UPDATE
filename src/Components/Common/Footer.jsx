@@ -18,18 +18,6 @@ function Footer() {
               </div>
 
               <div class="col-sm-7 col-md-5 col-lg-4">
-                <h5 class="font-weight-bold text-uppercase text-white">Recent Blog Posts</h5>
-                {/* Post Inline */}
-                <article class="post-inline">
-                  <p class="post-inline-title"><Link>Real Estate Guide: 7 Important Tips for Buying a Home</Link></p>
-                  <ul class="post-inline-meta">
-                    <li>by Sichem Mulumba</li>
-                    <li><Link>2 days ago</Link></li>
-                  </ul>
-                </article>
-              </div>
-
-              <div class="col-sm-7 col-md-5 col-lg-4">
               <h5 class="font-weight-bold text-uppercase text-white">Open Hours</h5>
               {/* Post Inline */}
               <article class="post-inline">
@@ -45,6 +33,20 @@ function Footer() {
               </article>
               </div>
 
+              <div class="col-sm-7 col-md-5 col-lg-4">
+              <h5 class="font-weight-bold text-uppercase text-white">Contact</h5>
+              {/* Post Inline */}
+              <article class="post-inline">
+                <ul class="post-inline-meta">
+                  <li>1-800-1234-567</li>
+                </ul>
+                
+                <ul class="post-inline-meta">
+                  <li>malawiHouses@gmail.com</li>
+                </ul>
+              </article>
+              </div>
+
 
             </div>
           </div>
@@ -55,7 +57,7 @@ function Footer() {
             <div class="footer-advanced-layout">
               <div>
               <a class="brand" href="index.html">
-              <img src="Assets/images/assets/Logo/logo2.png" alt="" width="115" height="34" srcset="Assets/images/assets/Logo/logo2.png"/>
+              <img src="Assets/Logo/logo2.png" alt="" width="115" height="34" srcset="Assets/Logo/logo2.png 2x"/>
               </a> <br />
               <ul class="foter-social-links list-inline list-inline-md">
                 <li><Link class="icon novi-icon icon-sm link-default mdi mdi-facebook"></Link></li>

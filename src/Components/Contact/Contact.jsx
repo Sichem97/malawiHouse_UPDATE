@@ -79,8 +79,6 @@ function Contact() {
                       <div class="wow-outer"> 
                         <button class="button button-primary button-winona wow slideInRight" type="submit">Send Message</button>
                       </div>
-                      <p>or use</p>
-                      <div class="wow-outer"><a class="button button-primary-outline button-icon button-icon-left button-winona wow slideInLeft" href="#"><span class="icon novi-icon text-primary mdi mdi-facebook-messenger"></span>Messenger</a></div>
                     </div>
                   </form>
                 </div>
@@ -89,6 +87,7 @@ function Contact() {
           </div>
 
           <ContactMap/>
+          
         </div>
       </section>
     </div>
